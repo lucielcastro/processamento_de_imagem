@@ -2,8 +2,8 @@
 import cv2
 import numpy as np
 
-imagem1 = cv2.imread('aula5/capital.jpg')
-imagem2 = cv2.imread('aula5/sao-paulo.png')
+imagem1 = cv2.imread('aula5/capital.jpeg')
+imagem2 = cv2.imread('aula5/saoPaulo.png')
 
 def addImg(img1,img2):
     res=np.zeros(img1.shape, np.uint8)
