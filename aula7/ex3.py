@@ -1,7 +1,7 @@
 # coding=utf-8
 import cv2
 
-img = cv2.imread('aula7/ifcx.jpg')
+img = cv2.imread('aula7/logo-if.jpg')
 
 #Redimensiona imagem
 # img = cv2.resize(img,(200,100),interpolation=cv2.INTER_AREA)
